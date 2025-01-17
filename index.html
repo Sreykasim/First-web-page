@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore premium skincare products that help achieve healthy, glowing skin using natural ingredients. Shop our moisturizers, cleansers, and treatments today!">
+    <meta name="author" content="Skincare Delights">
+    <title>Skincare Products</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Skincare Products">
+    <meta property="og:description" content="Explore premium skincare products that help achieve healthy, glowing skin using natural ingredients. Shop our moisturizers, cleansers, and treatments today!">
+    <meta property="og:image" content="https://yourwebsite.com/path/to/image.png"> <!-- Replace with actual image URL -->
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:title" content="Skincare Products">
+    <meta name="twitter:description" content="Explore premium skincare products that help achieve healthy, glowing skin using natural ingredients. Shop our moisturizers, cleansers, and treatments today!">
+    <meta name="twitter:image" content="https://yourwebsite.com/path/to/image.png"> <!-- Replace with actual image URL -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Telegram -->
+    <meta name="telegram" content="Skincare Delights Official">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <nav class="bg-teal-800 shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <ul class="flex justify-center space-x-6 text-white">
+                <li><a href="#home" class="hover:text-teal-300 transition-colors">Home</a></li>
+                <li><a href="./Web page/about.html" class="hover:text-teal-300 transition-colors">About</a></li>
+                <li><a href="./Web page/product.html" class="hover:text-teal-300 transition-colors">Products</a></li>
+                <li><a href="./Web page/contact.html" class="hover:text-teal-300 transition-colors">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="../image/copy05.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white"></div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="../image/copy03.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white"></div>
+          </div>
+          <div class="carousel-item">
+            <img src="../image/copy04.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-white"></div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon text-white" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon text-white" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- About Section -->
+        <section id="about" class="mb-16 bg-teal-50">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-semibold text-teal-600 mb-4">About Our Skincare</h2>
+                <div class="max-w-2xl mx-auto">
+                    <p class="text-teal-600 mb-4">Our skincare products are designed to help you achieve healthy, glowing skin. We use natural ingredients that are gentle yet effective for all skin types.</p>
+                    <p class="text-teal-600">Whether you're looking for moisturizers, cleansers, or treatments, our products offer the perfect solution for your skincare routine. Join thousands of happy customers who trust our brand to provide high-quality skincare.</p>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- Featured Ingredients Section -->
+<section id="featured-ingredients" class="mb-16 bg-teal-50">
+  <div class="text-center mb-12">
+      <h2 class="text-3xl font-semibold text-teal-600 mb-4">Featured Ingredients</h2>
+      <div class="max-w-2xl mx-auto">
+          <p class="text-teal-600 mb-4">Our skincare products are enriched with the finest ingredients to ensure the best results for your skin. Here's a look at some of our key ingredients:</p>
+      </div>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Ingredient 1 -->
+      <div class="bg-white rounded-lg shadow-lg p-6 text-center border-2 border-teal-200">
+          <img src="../image/Aloe-vera.png" alt="Aloe Vera" class="mx-auto mb-4 h-24 w-24 object-cover rounded-full">
+          <h3 class="text-xl font-semibold text-teal-500 mb-2">Aloe Vera</h3>
+          <p class="text-teal-600">Known for its soothing and anti-inflammatory properties, Aloe Vera helps calm irritated skin and keep it hydrated.</p>
+      </div>
+
+      <!-- Ingredient 2 -->
+      <div class="bg-white rounded-lg shadow-lg p-6 text-center border-2 border-teal-200">
+          <img src="../image/vitamin-c.png" alt="Vitamin C" class="mx-auto mb-4 h-24 w-24 object-cover rounded-full">
+          <h3 class="text-xl font-semibold text-teal-500 mb-2">Vitamin C</h3>
+          <p class="text-teal-600">A powerful antioxidant that helps brighten skin and reduce the appearance of dark spots, leaving your skin looking radiant.</p>
+      </div>
+
+      <!-- Ingredient 3 -->
+      <div class="bg-white rounded-lg shadow-lg p-6 text-center border-2 border-teal-200">
+          <img src="../image/Tea-tree-oil.png" alt="Tea Tree Oil" class="mx-auto mb-4 h-24 w-24 object-cover rounded-full">
+          <h3 class="text-xl font-semibold text-teal-500 mb-2">Tea Tree Oil</h3>
+          <p class="text-teal-600">Famous for its antibacterial properties, Tea Tree Oil helps reduce acne and other skin blemishes while keeping your skin clear and healthy.</p>
+      </div>
+
+      <!-- New Ingredient 4 (example with additional class 'other-class' while keeping 'rounded-lg' and 'shadow-lg') -->
+      <div class="bg-white rounded-lg shadow-lg p-6 text-center border-2 border-teal-200 other-class">
+          <img src="../image/Hyaluronic-acid.png" alt="Hyaluronic Acid" class="mx-auto mb-4 h-24 w-24 object-cover rounded-full">
+          <h3 class="text-xl font-semibold text-teal-500 mb-2">Hyaluronic Acid</h3>
+          <p class="text-teal-600">A powerful humectant that attracts moisture to the skin, helping it stay plump, hydrated, and smooth for a youthful appearance.</p>
+      </div>
+  </div>
+</section>
+
+
+        <!-- Skin Care Tips Section -->
+        <section id="skin-care-tips" class="mb-16 bg-teal-50">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-semibold text-teal-600 mb-4">Skin Care Tips</h2>
+                <div class="max-w-2xl mx-auto">
+                    <p class="text-teal-600 mb-4">Here are some essential tips to help you maintain a healthy skincare routine:</p>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Tip 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-2 border-teal-200">
+                    <h3 class="text-xl font-semibold text-teal-500 mb-2">Stay Hydrated</h3>
+                    <p class="text-teal-600">Drinking plenty of water is crucial for keeping your skin hydrated from the inside out. Make sure to drink at least 8 glasses of water a day.</p>
+                </div>
+
+                <!-- Tip 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-2 border-teal-200">
+                    <h3 class="text-xl font-semibold text-teal-500 mb-2">Use Sunscreen</h3>
+                    <p class="text-teal-600">Protect your skin from harmful UV rays by using sunscreen every day. This helps prevent premature aging and skin damage.</p>
+                </div>
+
+                <!-- Tip 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-2 border-teal-200">
+                    <h3 class="text-xl font-semibold text-teal-500 mb-2">Cleanse Gently</h3>
+                    <p class="text-teal-600">Avoid harsh cleansers that can strip your skin of natural oils. Use a gentle, hydrating cleanser to keep your skin balanced and fresh.</p>
+                </div>
+
+                <!-- Tip 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-md border-2 border-teal-200">
+                    <h3 class="text-xl font-semibold text-teal-500 mb-2">Moisturize Regularly</h3>
+                    <p class="text-teal-600">Moisturizing daily helps maintain skin elasticity and softness. Choose a moisturizer that suits your skin type for the best results.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section id="products" class="mb-16 bg-teal-50">
+            <h2 class="text-3xl font-semibold text-teal-600 mb-8 text-center">Our Skincare Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <article class="bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-200 border-2 border-teal-200">
+                    <div class="text-4xl mb-4 flex justify-center">
+                      <img src="../image/product01.png" alt="Product 1">
+                    </div>
+                    <h3 class="text-xl font-semibold text-teal-500 mb-2">Hydrating Moisturizer</h3>
+                    <p class="text-teal-600 mb-2">A deeply hydrating moisturizer that helps lock in moisture and keeps your skin smooth throughout the day.</p>
+                    <p class="text-teal-600 font-bold">$15</p>
+                    <button class="mt-4 bg-coral-500 text-teal-800 px-4 py-2 rounded-full hover:bg-coral-600 transition-colors duration-200 w-full">
+                        Order Now
+                    </button>
+                </article>
+
+                <!-- Product 2 -->
+                <article class="bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-200 border-2 border-teal-200">
+                    <div class="text-4xl mb-4 flex justify-center">
+                      <img src="../image/product02.png" alt="Product 2">
+                    </div>
+                    <h3 class="text-xl font-semibold text-teal-500 mb-2">Cleansing Foam</h3>
+                    <p class="text-teal-600 mb-2">A gentle foaming cleanser that effectively removes dirt and impurities, leaving your skin fresh and clean.</p>
+                    <p class="text-teal-600 font-bold">$20</p>
+                    <button class="mt-4 bg-coral-500 text-teal-800 px-4 py-2 rounded-full hover:bg-coral-600 transition-colors duration-200 w-full">
+                        Order Now
+                    </button>
+                </article>
+
+                <!-- Product 3 -->
+                <article class="bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition-transform duration-200 border-2 border-teal-200">
+                    <div class="text-4xl mb-4 flex justify-center">
+                      <img src="../image/product03.png" alt="Product 3">
+                    </div>
+                    <h3 class="text-xl font-semibold text-teal-500 mb-2">Anti-Aging Serum</h3>
+                    <p class="text-teal-600 mb-2">An advanced anti-aging serum that reduces fine lines and wrinkles, promoting youthful skin.</p>
+                    <p class="text-teal-600 font-bold">$18</p>
+                    <button class="mt-4 bg-coral-500 text-teal-800 px-4 py-2 rounded-full hover:bg-coral-600 transition-colors duration-200 w-full">
+                        Order Now
+                    </button>
+                </article>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="mb-16 bg-teal-50">
+            <h2 class="text-3xl font-semibold text-teal-600 mb-8 text-center">Customer Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <blockquote class="bg-white p-6 rounded-lg shadow-md border-2 border-teal-200">
+                    <p class="text-teal-600 mb-4">"I absolutely love these products! My skin has never felt so soft and moisturized!"</p>
+                    <footer class="text-teal-500 font-semibold">Sarah, Happy Customer</footer>
+                </blockquote>
+                <blockquote class="bg-white p-6 rounded-lg shadow-md border-2 border-teal-200">
+                    <p class="text-teal-600 mb-4">"The anti-aging serum has done wonders for my skin. It's smoother and looks more youthful!"</p>
+                    <footer class="text-teal-500 font-semibold">John, Regular User</footer>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-teal-800 text-white py-6">
+      <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-4">
+              <div class="col-span-1">
+                  <h3 class="text-xl font-semibold">Skincare Delights</h3>
+              </div>
+              <div class="col-span-1">
+                  <h4 class="text-lg">Contact</h4>
+                  <ul>
+                      <li><a href="mailto:info@skincaredelights.com">Email</a></li>
+                      <li><a href="tel:+123456789">Phone</a></li>
+                      <li><a href="https://t.me/your_telegram_username" target="_blank" class="hover:text-teal-300">Telegram</a></li>
+                  </ul>
+              </div>
+              <div class="col-span-1">
+                  <h4 class="text-lg">Follow Us</h4>
+                  <ul>
+                      <li><a href="#" class="hover:text-teal-300">Instagram</a></li>
+                      <li><a href="#" class="hover:text-teal-300">Facebook</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
